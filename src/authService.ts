@@ -1,7 +1,7 @@
 import * as vscode from 'vscode';
 import * as https from 'https';
 
-const GITHUB_CLIENT_ID = 'Ov23lilv02ODTEvT3I2y'; // TODO: Replace with your OAuth App Client ID
+const GITHUB_CLIENT_ID = 'YOUR CLIENT ID'; // TODO: Replace with your OAuth App Client ID
 const SCOPES = 'repo read:org user:email workflow';
 
 export class AuthService {
