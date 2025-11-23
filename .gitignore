@@ -1,0 +1,26 @@
+out
+dist
+node_modules
+.vscode-test/
+*.vsix
+
+# Local IDE and history
+.vscode/
+.vscode-test.mjs
+.history/
+
+# Build / output
+dist/
+out/
+build/
+
+# Logs and env
+.env
+.env.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
